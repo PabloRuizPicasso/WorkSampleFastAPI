@@ -12,7 +12,7 @@ API будет доступен на `http://localhost:8000`
 
 #### Добавить пользователя в группу docker:
 
-    sudo usermod -aG docker username
+    sudo usermod -aG docker <username>
 
 #### Клонировать репозиторий и перейти в него:
     git clone https://github.com/PabloRuizPicasso/WorkSampleFastAPI.git
