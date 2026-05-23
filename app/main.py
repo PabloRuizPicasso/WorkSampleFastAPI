@@ -23,7 +23,7 @@ def create_app() -> FastAPI:
         redoc_url="/redoc",
     )
 
-    app.include_router(api_router, prefix="/api/v1")
+    app.include_router(api_router)
 
     @app.exception_handler(Exception)
     async def generic_handler(request: Request, exc: Exception):
